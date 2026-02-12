@@ -18,13 +18,11 @@ const Landing_page = () => {
           </div>
           <div className="hidden md:flex gap-5 text-sm sm:text-xl md:text-2xl font-bold">
             <Link to="/">Home</Link>
-            <Link to="/Menu">
-              <h1 className="cursor-pointer">Menu</h1>
-            </Link>
+            <Link to="/Menu">Menu</Link>
             <Link to="/About">About US</Link>
-            <Link to="/Best">
-              <h1>Best Seller</h1>
-            </Link>
+            <Link to="/Best">Best Seller</Link>
+            <Link to="/Blog">Blog</Link>
+            <Link to="/FAQ">FAQs</Link>
           </div>
           <div className="md:hidden">
             <RiMenuLine />

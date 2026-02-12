@@ -1,4 +1,6 @@
+import { RiArrowRightBoxLine, RiArrowRightDoubleLine } from '@remixicon/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Spacial = () => {
   return (
@@ -68,11 +70,10 @@ const Spacial = () => {
         </div>
       </div>
 
-      <div className="text-center mt-16">
+      <div className="text-center mt-16 flex justify-center ">
         <button
-          className="bg-[#00A890] px-12 py-4 rounded-md text-xl text-white hover:bg-[#008f79] transition"
-        >
-          View Full Menu →
+          className="bg-[#00A890] px-12 py-4 rounded-md text-xl text-white hover:bg-[#008f79] transition ">
+            <Link to='/Menu' className='flex justify-center items-center'>View Full Menu <RiArrowRightDoubleLine className='mt-1 size-10'/> </Link>
         </button>
       </div>
     </section>
